@@ -32,20 +32,23 @@ seeCharacters(jPCharacters);
 // 3a
 const jurassicParkMovies = [
     {
-        one: "Jurassic Park",
-        two: "The Lost World: Jurassic Park",
-        three: "Jurassic Park III"
+        one: `Jurassic Park`,
+        two: `The Lost World: Jurassic Park`,
+        three: `Jurassic Park III`
     },
-    {four: "Jurassic World",
-    five: "Jurassic World: Fallen Kingdom"}
+    { four: `Jurassic World`,
+    five: `Jurassic World: Fallen Kingdom`}
 ];
-
+console.log(jurassicParkMovies);
+console.log("===========");
 // 3b
-function seeJPMovies([one,two,three,four,five]){
+function seeJPMovies ([{one, two, three},{four, five}]){
     console.log(one);
     console.log(two);
     console.log(three);
     console.log(four);
     console.log(five);
+
 }
-seeJPMovies(jurassicParkMovies);
+
+seeJPMovies(jurassicParkMovies,jurassicParkMovies);
