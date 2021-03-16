@@ -52,3 +52,8 @@ function seeJPMovies ([{one, two, three},{four, five}]){
 }
 
 seeJPMovies(jurassicParkMovies,jurassicParkMovies);
+
+console.log("===========");
+
+
+
